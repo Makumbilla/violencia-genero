@@ -1,4 +1,4 @@
-/* Reset básico */
+
 * {
     box-sizing: border-box;
     margin: 0;
@@ -7,8 +7,8 @@
 
 body {
     font-family: Verdana, Tahoma, Arial, sans-serif;
-    background: #fff;
-    color: #333;
+    background: #de8ff1;
+    color: #ffffff;
     line-height: 1.6;
 }
 
@@ -38,7 +38,7 @@ header nav a {
 header p {
     margin-top: 10px;
     background: #FFD83D;
-    color: #000;
+    color: #ffffff;
     display: inline-block;
     padding: 5px 10px;
     font-weight: bold;
@@ -58,7 +58,12 @@ section p {
     margin-bottom: 10px;
 }
 
-
+fieldset {
+    background-color: #ccc;  
+    width: 250px;             
+    height: 200px;          
+    margin: 50px auto;                 
+}
 img {
     display: block;
     margin: 15px auto;
@@ -71,7 +76,7 @@ a, button {
     margin: 5px;
     padding: 8px 12px;
     background: #FFD83D;
-    color: #000;
+    color: #fffdfd;
     text-decoration: none;
     border: none;
     font-weight: bold;
